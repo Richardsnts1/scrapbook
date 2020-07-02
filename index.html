@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+<head>
+    <meta charset="UTF-8">
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Scrapbook</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Scrapbook</a>
+    </nav>
+
+    <main role="main">
+      <div class="jumbotron">
+        <div class="container d-flex flex-column align-items-center">
+            <h3 class="font-weight-bold">Mural de Recados - Deixe sua mensagem</h3>
+
+            <div id="inputField" class="form-group col-md-6">
+                <label class="font-weight-bold" for="titleInput">Título:</label>
+                <input 
+                    id="titleInput"
+                    type="text"
+                    class="form-control"
+                    placeholder="Digite o título da mensagem"
+                />
+
+                <label class="font-weight-bold" for="messageField">Mensagem:</label>
+                <textarea 
+                    id="messageField" 
+                    class="form-control"
+                    cols="30" 
+                    rows="5"
+                ></textarea>
+
+                <button class="btn btn-dark mt-2 w-100" id="addButton" onclick="criaMensagem()">Adicionar</button>
+            </div> <!--^botão-->
+            
+            <div id="scrapsField" class="d-flex justify-content-center flex-wrap mt-5 w-100">
+                
+            </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
