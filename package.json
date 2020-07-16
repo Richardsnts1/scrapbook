@@ -1,0 +1,8 @@
+{
+  "name": "scrapbook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Richardsnts1/scrapbook.git",
+  "author": "Richardsnts1 <richard.lopes.snsts@gmail.com>",
+  "license": "MIT"
+}
