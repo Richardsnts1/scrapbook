@@ -4,5 +4,10 @@
   "main": "index.js",
   "repository": "https://github.com/Richardsnts1/scrapbook.git",
   "author": "Richardsnts1 <richard.lopes.snsts@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4"
+  }
 }
